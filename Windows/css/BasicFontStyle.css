@@ -1,0 +1,51 @@
+
+/*引用 www.iconfont.cn 线上字体*/
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/webfont_zvpt3aptbyfirudi.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_zvpt3aptbyfirudi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_zvpt3aptbyfirudi.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_zvpt3aptbyfirudi.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_zvpt3aptbyfirudi.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
+}
+@font-face {
+	font-family:'QidianFont';
+	src: url('UWKMJF.ttf');
+}
+
+.fontNormal-Bar{font-family: "微软雅黑" ;font-weight: 400;font-size: 13px;color: black; }
+.fontNormal-Bar-Weight{font-family: "微软雅黑" ;font-weight: 600;font-size: 16px;color: black; }
+.fontNormal-Title{font-family: webfont;font-size: 14px;font-weight: 600;color:#1E90FF;letter-spacing: 5px;text-align: center;}
+.fontNormalbtn-title{font-family: "微软雅黑" ;font-weight: 400;font-size: 16px;padding-bottom: 10px;}
+.font_center{text-align: center;}
+.font_left{text-align: left;}
+.font_middle{text-align: center;vertical-align: middle;}
+.font_center_middle{text-align: center; vertical-align: middle;}
+/*Hover字体*/
+.Font_Hover_Red_12{font-size: 12px;}
+.Font_Hover_Red_12:hover{color: red;cursor: pointer;}
+.Font_Hover_Red_14{font-size: 14px;}
+.Font_Hover_Red_14:hover{color: red;cursor: pointer;}
+.Font_Hover_Red_16{font-size: 16px;}
+.Font_Hover_Red_16:hover{color: red; cursor: pointer;}
+/*颜色*/
+.Font-Grey-Light{color: gainsboro;}
+.Font-Red-Deep{color:  #C7254E;font-weight: 900;}
+.Font-Black{color: #000000;font-weight: 500;}
+.Font-Black-Light-12{color: dimgrey;font-weight: 400;font-size: 12px;}
+.Font-Black-Deep{color:  black;font-weight: 900;}
+.Font-Red-Light{color:  #C7254E;font-weight: 600;}
+.Font-Grey-Deep-Title{color:#737373;font-family: webfont,"微软雅黑";font-size: smaller;}
+/*数字表达*/
+.Font-Read-Count{color: gainsboro;display: inline-block;margin-right: 0px;}
+
+/*排行榜 Span*/
+.Font_Span_NoOne{width: 40px;height: 30px;background-color: crimson;border-radius: 10%;font-weight: 700;color: white;display: inline-block;}
+.Font_Span_NoTwo{width: 25px;height: 25px;background-color: orange;border-radius: 10%;font-weight: 700;color: white;display: inline-block;}
+.Font_Span_NoOhter{width: 25px;height: 25px;background-color: gray;border-radius: 10%;font-weight: 700;color: white;display: inline-block;}
+.Font_Span_NoOne_Cicle{text-align: center;width: 20px;height: 20px;background-color: crimson;border-radius: 50%;font-weight: 700;color: white;display: inline-block;}
+.font_20_Title_fine{font-size: 18px;font-weight: 400;font-family: "QidianFont","华文楷体",webfont;}
+.BookNameNew_Font{color:white;background-color: darkred;}
+.BookNameNew_Red{color:darkred;font-family: webfont,"微软雅黑";font-weight: 500;}
+.BookNameTitle{font-size: 20px; font-weight: 600; color: #222222; }
+
+.Font_Introduction_Light{color: #101010;font-family: "webfont","微软雅黑";}

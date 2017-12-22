@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="refresh" content="50" />
+		<meta name="author" content="Tangyucheng" />
+		<meta name="generator" content="Hbuilder" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<link rel="stylesheet" href="css/BasicStyle.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="icon" href="SystemImg/Iconyun.png" />
+		<link rel="stylesheet" href="css/indexCss.css" />
+		<title>凌云阁</title> 
+	</head>
+	<body>
+		<header class="borderGrey_One">
+			<nav class="NavFirst fontNormal-Bar Link-Nav-Qidian">
+                 <a href="" class="active">凌云阁</a>
+                 <a href="">登高望远</a>
+                 <a href="">博览群书</a>
+                 <a href="">诗词佳句</a>
+                 <a href="">登阁一赋</a>
+                 <a href="h5/UserLogin.html" target="_blank" class="nav-right-links">登录</a>
+                 <a href="h5/UserRegister.html" target="_blank" class="nav-right-link">注册</a>
+			</nav>
+		</header>
+		<section class="Head-Title-Serach">
+			<div class="icon-div">
+					<figure>
+						<img src="SystemImg/IconYunLog3.png" width="180px" height="70px" />
+						<figcaption><span class="fontNormal-Title"></span></figcaption>
+					</figure> 
+			</div>
+			<div class="seracrh-div">
+				<input type="text" class="input-Search"  placeholder="莎士比亚戏剧"/>
+				<input type="button" class="input-Search-btn" title="点击搜索书名" />
+			</div>
+			<div class="MyBook-div">
+				<a href="h5/MyBookSelf.html" target="_blank" id="BookSelf" class="borderGrey_One Link_Show_Corp_Btn" >
+					<svg t="1511939474012" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5005" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><defs><style type="text/css"></style></defs><path d="M162.133333 196.266667v-68.266667c0-18.773333 15.36-34.133333 34.133334-34.133333h733.866666c0-37.546667-30.72-68.266667-68.266666-68.266667h-699.733334c-37.546667 0-68.266667 30.72-68.266666 68.266667v836.266666c0 37.546667 30.72 68.266667 68.266666 68.266667h51.2a17.066667 17.066667 0 0 0 17.066667-17.066667v-733.866666a17.066667 17.066667 0 0 0-17.066667-17.066667h-17.066666c-18.773333 0-34.133333-15.36-34.133334-34.133333z" fill="#040000" p-id="5006"></path><path d="M793.6 668.689067l-170.478933-171.0592L452.266667 667.869867V247.466667a17.066667 17.066667 0 0 0-17.066667-17.066667h-119.466667a17.066667 17.066667 0 0 0-17.066666 17.066667v733.866666a17.066667 17.066667 0 0 0 17.066666 17.066667h546.133334c37.546667 0 68.266667-30.72 68.266666-68.266667v-682.666666a17.066667 17.066667 0 0 0-17.066666-17.066667h-102.4a17.066667 17.066667 0 0 0-17.066667 17.066667v421.2224z" fill="#040000" p-id="5007"></path><path d="M623.291733 401.066667l102.0416 102.4v-290.133334a17.066667 17.066667 0 0 0-17.066666-17.066666h-170.666667a17.066667 17.066667 0 0 0-17.066667 17.066666v290.133334l102.7584-102.4z" fill="#040000" p-id="5008"></path></svg>
+					<span class="fontNormalbtn-title" style="color: black;">我的书架</span></a>
+			</div>
+		</section>
+		<section class="navsecond-div borderGrey_One">
+				<nav class="navSecond">
+					<a href="" class="TypeFirst"><svg t="1511941522959" class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5855" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><defs><style type="text/css"></style></defs><path d="M946.964 581.014l-869.93 0c-34.3 0-62.138-30.903-62.138-69.014s27.838-69.098 62.138-69.098l869.93 0c34.3 0.083 62.138 30.987 62.138 69.098 0 38.112-27.838 69.014-62.138 69.014zM946.964 235.859l-869.93 0c-34.3 0-62.138-30.903-62.138-69.014s27.838-69.098 62.138-69.098l869.93 0c34.3 0 62.138 30.903 62.138 69.098s-27.838 69.014-62.138 69.014zM77.036 788.223l869.93 0c34.3 0 62.138 30.903 62.138 69.014s-27.838 69.014-62.138 69.014l-869.93 0c-34.3 0-62.138-30.903-62.138-69.014s27.838-69.014 62.138-69.014z" p-id="5856" fill="#ffffff"></path></svg>
+						作品分类</a>
+					<a href="">西方戏剧</a>
+					<a href="">中国古典</a>
+					<a href="">现代科学</a>
+					<a href="">经典人文</a>
+					<a href="">诗词歌画</a>
+				</nav>					
+		</section>
+        <section class="Head-Book-Type">
+        	<div class="BookType borderGrey_One">
+        		<br />
+        		<ul>
+        			<li>中国玄幻</li>
+        			<li>俄国古典</li>
+        			<li>美国经典</li>
+        			<li>电影历史</li>
+        			<li>红色经典</li>
+        			<li>英国古典</li>
+        			<li>社会人文</li>
+        			<li>异国文化</li>
+        			<li>现代科学</li>
+        			<li>西方戏剧</li>
+        		</ul>
+        	</div>
+        	<div class="LunboSlider">
+	        	<div id="myCarousel" class="carousel slide" data-interval="5000"	>
+				    <!-- 轮播（Carousel）指标 -->
+				    <ol class="carousel-indicators">
+				        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#myCarousel" data-slide-to="1"></li>
+				        <li data-target="#myCarousel" data-slide-to="2"></li>
+				    </ol>   
+				    <!-- 轮播（Carousel）项目 -->
+				    <div class="carousel-inner">
+				        <div class="item active">
+				            <img src="SystemImg/one.jpeg" height="350px" alt="First slide">
+				            <div class="carousel-caption"></div>
+				        </div>
+				        <div class="item">
+				            <img src="SystemImg/two.jpeg" alt="Second slide">
+				            <div class="carousel-caption"></div>
+				        </div>
+				        <div class="item">
+				            <img src="SystemImg/three.jpeg" alt="Third slide">
+				            <div class="carousel-caption"></div>
+				        </div>
+				    </div>
+				    <!-- 轮播（Carousel）导航 -->
+				    <a class="carousel-control left" href="#myCarousel" 
+				        data-slide="prev">&lsaquo;
+				    </a>
+				    <a class="carousel-control right" href="#myCarousel" 
+				        data-slide="next">&rsaquo;
+				    </a>
+				</div>
+        	</div>
+        	<div class="NewBook borderGrey_One">
+        		<h4 class="h4 font_center"><b>书籍动态</b></h4>
+        		<ul>
+        		   <li class="font_20_Title_fine font_left">[新闻]谢耳朵和男友完婚了！</li>	
+        		</ul>
+        		<ul>
+        		   <li class="font_20_Title_fine font_left">[公告]凌云集团宣布将要并购腾讯！</li>
+        		</ul>        		
+        		<ul>
+        		   <li class="font_20_Title_fine font_left">[咨询]黄鹤楼</li>	
+        		</ul>        		
+        		<ul>
+        		   <li class="font_20_Title_fine font_left">[推荐]凌云集团新书<span class="BookNameNew_Font">《风中凌乱》</span></li>	
+        		</ul>
+                <div style="padding: 12px;">
+                	<a href="javascript:confrim('你喜欢玩游戏吗？')"><img  src="SystemImg/GameADI.jpg" width="250px"/></a> 	
+                </div>
+        	</div>
+        </section>
+        <br/><br/>
+		<section Id="Leaderboards">
+			<div class="BorderOne borderGrey_One">
+				<h4><strong>本周推荐</strong></h4>
+				<ul>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+					<li><span class="Font-Grey-Light">[戏剧]</span>冒险巴乔夫</li>
+				</ul>
+			</div>
+			<div class="ShowBook">
+				<div class="ShowBook_Up">
+	                 <div class="BookPicture borderGrey_One">
+	                 	<img src="img/BookFuture.png" width="200px" height="250px" />
+	                 </div>
+	                 <div class="BooKdetali borderGrey_One">
+	                 	<br />
+	                 	<br />
+	                 	<p>
+	                 		<a href="https://baike.baidu.com/item/%E6%9C%AA%E6%9D%A5%E7%AE%80%E5%8F%B2/20385233"><span class="BookNameTitle">未来简史</span></a>
+	                 	</p>
+	                 	<p>
+	                 		<span class="Font-Grey-Light">[作者]尤瓦尔·赫拉利</span>
+	                 	</p>
+	                 	<p class="P_Introdution">
+	                 		<span>[简介]</span>
+	                 		《未来简史》一书由[以] 尤瓦尔·赫拉利所著，中信出版社出版发行。主要讲述了进入21世纪后，曾经长期威胁人类生存、发展的瘟疫、饥荒和战争已经被攻克，
+	                 		智人面临着新的待办议题：永生不老、幸福快乐和成为具有“神性”的人类。
+	                 		在解决这些新问题的过程中，科学技术的发展将颠覆我们很多当下认为无需佐证的“常识”，比如人文主义所推崇的自由意志将面临严峻挑战，机器将会代替人类
+	                 		做出更明智的选择。
+	                 	</p>
+	                 </div>					
+				</div>
+                 <div class="ShowBook_Dowm borderGrey_One">
+                 	<div class="List_Book borderGrey_One">
+                 		<h5><a href="https://tieba.baidu.com/f?kw=%B1%A9%D7%DF%B4%F3%CA%C2%BC%FE&fr=ala0&tpl=5"><span class="BookNameNew_Red">暴走大事件纪检</span></a></h5>
+                 	    <p><span class="Font-Red-Deep">25000</span><span class="Font-Red-Light">人在追书</span></p>
+                 	    <p>
+                 	    	<span class="Font-Grey-Light">[简介]</span>
+                 	    	一本极限挑战的书籍！一起来看吧！一个无头男子的愤怒！
+                 	    </p>
+                 	</div>
+                 	<div class="List_Book borderGrey_One">
+                 		<h5><a href="https://tieba.baidu.com/f?kw=%B1%A9%D7%DF%B4%F3%CA%C2%BC%FE&fr=ala0&tpl=5"><span class="BookNameNew_Red">暴走大事件纪检</span></a></h5>
+                 	    <p><span class="Font-Red-Deep">25000</span><span class="Font-Red-Light">人在追书</span></p>
+                 	    <p>
+                 	    	<span class="Font-Grey-Light">[简介]</span>
+                 	    	一本极限挑战的书籍！一起来看吧！一个无头男子的愤怒！
+                 	    </p>
+                 	</div>
+                 	<div class="List_Book borderGrey_One">
+                 		<h5><a href="https://tieba.baidu.com/f?kw=%B1%A9%D7%DF%B4%F3%CA%C2%BC%FE&fr=ala0&tpl=5"><span class="BookNameNew_Red">暴走大事件纪检</span></a></h5>
+                 	    <p><span class="Font-Red-Deep">25000</span><span class="Font-Red-Light">人在追书</span></p>
+                 	    <p>
+                 	    	<span class="Font-Grey-Light">[简介]</span>
+                 	    	一本极限挑战的书籍！一起来看吧！一个无头男子的愤怒！
+                 	    </p>
+                 	</div>
+                 	<div class="List_Book borderGrey_One">
+                 		<h5><a href="https://tieba.baidu.com/f?kw=%B1%A9%D7%DF%B4%F3%CA%C2%BC%FE&fr=ala0&tpl=5"><span class="BookNameNew_Red">暴走大事件纪检</span></a></h5>
+                 	    <p><span class="Font-Red-Deep">25000</span><span class="Font-Red-Light">人在追书</span></p>
+                 	    <p>
+                 	    	<span class="Font-Grey-Light">[简介]</span>
+                 	    	一本极限挑战的书籍！一起来看吧！一个无头男子的愤怒！
+                 	    </p>
+                 	</div>
+                 	<div class="List_Book borderGrey_One">
+                 		<h5><a href="https://tieba.baidu.com/f?kw=%B1%A9%D7%DF%B4%F3%CA%C2%BC%FE&fr=ala0&tpl=5"><span class="BookNameNew_Red">暴走大事件纪检</span></a></h5>
+                 	    <p><span class="Font-Red-Deep">25000</span><span class="Font-Red-Light">人在追书</span></p>
+                 	    <p>
+                 	    	<span class="Font-Grey-Light">[简介]</span>
+                 	    	一本极限挑战的书籍！一起来看吧！一个无头男子的愤怒！
+                 	    </p>
+                 	</div>
+                 	<div class="List_Book borderGrey_One">
+                 		<h5><a href="https://tieba.baidu.com/f?kw=%B1%A9%D7%DF%B4%F3%CA%C2%BC%FE&fr=ala0&tpl=5"><span class="BookNameNew_Red">暴走大事件纪检</span></a></h5>
+                 	    <p><span class="Font-Red-Deep">25000</span><span class="Font-Red-Light">人在追书</span></p>
+                 	    <p>
+                 	    	<span class="Font-Grey-Light">[简介]</span>
+                 	    	一本极限挑战的书籍！一起来看吧！一个无头男子的愤怒！
+                 	    </p>
+                 	</div>
+                 </div>
+			</div>
+			<div class="BorderThree borderGrey_One">
+				<h4><strong>阅读排行榜</strong></h4>
+				<ul>
+					<li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+ 					<li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>                  
+ 					<li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>  
+					<li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>  
+                    <li><span class="Font-Grey-Light">[社会]</span>情商高就是说话让人舒服<span class="Font-Read-Count">2500</span></li>                      
+				</ul>
+			</div>
+		</section>
+        <br/>
+        <section class="Ad_Administot">
+        	<a href="http://ad.7xizs.net/Apple/Index/designer.html?baidu=CD&PC=&unit=sheji&keyword=%E8%AE%BE%E8%AE%A1%E4%B9%8B%E5%AE%B6"><img src="img/ImgAd.png" width="1300px" /></a>
+        </section>
+        <br />
+        <section class="NewBook_List_LeaderBorad borderGrey_One">
+        	<h4><strong>新书上架</strong> <small>这周上架1552本</small></h4>
+            <div class="NesBookList_Leader ">
+            	<div class="BookPicture">
+            		<div id="myCarousel2" class="carousel slide" interval="2500" >
+					    <!-- 轮播（Carousel）指标 -->
+					    <ol class="carousel-indicators">
+					        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+					        <li data-target="#myCarousel2" data-slide-to="1"></li>
+					        <li data-target="#myCarousel2" data-slide-to="2"></li>
+					    </ol>   
+					    <!-- 轮播（Carousel）项目 -->
+					    <div class="carousel-inner">
+					        <div class="item active">
+					            <img src="img/BookListOne.png" alt="First slide">
+					            <div class="carousel-caption">意志力</div>
+					        </div>
+					        <div class="item">
+					            <img src="img/BookListTwo.png" alt="Second slide">
+					            <div class="carousel-caption">儒的气派</div>
+					        </div>
+					        <div class="item">
+					            <img src="img/BookListThree.png" alt="Third slide">
+					            <div class="carousel-caption">梦想的人</div>
+					        </div>
+					    </div>
+					    <!-- 轮播（Carousel）导航 -->
+					    <a class="carousel-control left" href="#myCarousel2" 
+					        data-slide="prev">&lsaquo;
+					    </a>
+					    <a class="carousel-control right" href="#myCarousel2" 
+					        data-slide="next">&rsaquo;
+					    </a>
+					</div>
+            	</div>
+            	<div class="BookPictureList borderGrey_One">
+            		<div class="NewBookSass borderGrey_One">
+            			<img  src="img/OneNewBook.png"/>
+            			<p>
+            				<strong>召唤我吧：两界邪神的成长之路</strong><br /><br/>
+            				<span class="Font-Grey-Light">&nbsp;&nbsp;[简介]</span>
+            				<span class="Font-Grey-Deep-Title" >
+            					我是不朽的通行证，掌握命运的契约书，我来自天堂，也掌握着地狱
+            				</span>
+            			</p>
+            		</div>
+            		<div class="NewBookSass borderGrey_One">
+            			<img  src="img/OneNewBook.png"/>
+            			<p>
+            				<strong>召唤我吧：两界邪神的成长之路</strong><br /><br/>
+            				<span class="Font-Grey-Light">&nbsp;&nbsp;[简介]</span>
+            				<span class="Font-Grey-Deep-Title" >
+            					我是不朽的通行证，掌握命运的契约书，我来自天堂，也掌握着地狱
+            				</span>
+            			</p>
+            		</div>
+            		<div class="NewBookSass borderGrey_One">
+            			<img  src="img/OneNewBook.png"/>
+            			<p>
+            				<strong>召唤我吧：两界邪神的成长之路</strong><br /><br/>
+            				<span class="Font-Grey-Light">&nbsp;&nbsp;[简介]</span>
+            				<span class="Font-Grey-Deep-Title" >
+            					我是不朽的通行证，掌握命运的契约书，我来自天堂，也掌握着地狱
+            				</span>
+            			</p>
+            		</div>
+            		<div class="NewBookSass borderGrey_One">
+            			<img  src="img/OneNewBook.png"/>
+            			<p>
+            				<strong>召唤我吧：两界邪神的成长之路</strong><br /><br/>
+            				<span class="Font-Grey-Light">&nbsp;&nbsp;[简介]</span>
+            				<span class="Font-Grey-Deep-Title" >
+            					我是不朽的通行证，掌握命运的契约书，我来自天堂，也掌握着地狱
+            				</span>
+            			</p>
+            		</div>
+            		<div class="NewBookSass borderGrey_One">
+            			<img  src="img/OneNewBook.png"/>
+            			<p>
+            				<strong>召唤我吧：两界邪神的成长之路</strong><br /><br/>
+            				<span class="Font-Grey-Light">&nbsp;&nbsp;[简介]</span>
+            				<span class="Font-Grey-Deep-Title" >
+            					我是不朽的通行证，掌握命运的契约书，我来自天堂，也掌握着地狱
+            				</span>
+            			</p>
+            		</div>
+            		<div class="NewBookSass borderGrey_One">
+            			<img  src="img/OneNewBook.png"/>
+            			<p>
+            				<strong>召唤我吧：两界邪神的成长之路</strong><br /><br/>
+            				<span class="Font-Grey-Light">&nbsp;&nbsp;[简介]</span>
+            				<span class="Font-Grey-Deep-Title" >
+            					我是不朽的通行证，掌握命运的契约书，我来自天堂，也掌握着地狱
+            				</span>
+            			</p>
+            		</div>           		
+            	</div>
+            	<div class="NewAuhtor borderGrey_One">
+            		<h4><strong>新人·新书榜</strong></h4>
+					<ul>
+						<li><span class="Font_Span_NoOne">No.1</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoTwo">2</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">3</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">4</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">5</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">6</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">7</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">8</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">9</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">10</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">11</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+						<li><span class="Font_Span_NoOhter">12</span>&nbsp;&nbsp;修仙归来当奶爸</li>
+					</ul>
+            	</div>
+            </div>
+        </section>
+       <br />
+       <section class="Ad_Administot">
+        	<a target="_blank" href="http://ad.7xizs.net/Apple/Index/designer.html?baidu=CD&PC=&unit=sheji&keyword=%E8%AE%BE%E8%AE%A1%E4%B9%8B%E5%AE%B6"><img src="img/ImgAdTwo.jpg" width="1300px" /></a>
+        </section>
+        <section class="BookShowGexin borderGrey_One">
+        	<div class="NewZhangeBook borderGrey_One">
+	         	<h4>最新热门更新</h4>
+				<table class="table table-hover">
+					<tbody>
+						<tr>
+							<td class="Font-Grey-Light">[科幻]</td><td class="Font-Black-Deep Font_Hover_Red_14">哥德巴赫猜想</td><td>第一百六十一集尚斌的来历</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[玄幻]</td><td class="Font-Black-Deep Font_Hover_Red_14">全系修士</td><td>第三十七章独立空间</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[社会]</td><td class="Font-Black-Deep Font_Hover_Red_14">你的大爷</td><td>第三十五章风起月宝楼</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[科幻]</td><td class="Font-Black-Deep Font_Hover_Red_14">光明纪元</td><td>第十二卷 第四十章准提之谋舞得一手好</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[文学]</td><td class="Font-Black-Deep Font_Hover_Red_14">资质社会</td><td>第八章合力破印 （二）</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[哲学]</td><td class="Font-Black-Deep Font_Hover_Red_14">休斯的烦恼</td><td>第八章调包</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[科幻]</td><td class="Font-Black-Deep Font_Hover_Red_14">人生宝典</td><td>第2章调戏狮子</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[宗教]</td><td class="Font-Black-Deep Font_Hover_Red_14">佛的思考</td><td>第三集 释迦牟尼作法</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[科学]</td><td class="Font-Black-Deep Font_Hover_Red_14">十万个宇宙</td><td>第三千零一章 未来的纪元</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[数学]</td><td class="Font-Black-Deep Font_Hover_Red_14">关于数学的一万个思考</td><td>第8章客卿长老的震惊</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[社会]</td><td class="Font-Black-Deep Font_Hover_Red_14">你的大爷</td><td>第三十五章风起月宝楼</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+						<tr>
+							<td class="Font-Grey-Light">[科幻]</td><td class="Font-Black-Deep Font_Hover_Red_14">光明纪元</td><td>第十二卷 第四十章准提之谋舞得一手好</td><td class="Font_Hover_Red_12">帅气的唐帅哥</td><td class="Font-Black ">12-01 12:45</td>
+						</tr>
+					</tbody>
+				</table>
+        	</div>
+            <div class="AuthorShow borderGrey_One">
+            	<div class="AuthorDiv borderGrey_One">
+            		<img  src="img/AuthuorPG.png" width="100px" height="100px"/>
+            		<p>
+            			<strong>弗朗西斯·培根</strong>
+            		</p>
+            		<p>
+            			<a target="_blank" href="https://baike.baidu.com/item/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9/991349#2">《论说文集》</a>
+            		</p>
+            		<p class="Font-Black-Light-12">
+            			英国文艺复兴时期散文家、哲学家
+            		</p>
+            	</div>
+            	<div class="AuthorDiv borderGrey_One">
+            		<img  src="img/AuthuorPG.png" width="100px" height="100px"/>
+            		<p>
+            			<strong>弗朗西斯·培根</strong>
+            		</p>
+            		<p>
+            			<a target="_blank" href="https://baike.baidu.com/item/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9/991349#2">《论说文集》</a>
+            		</p>
+            		<p class="Font-Black-Light-12">
+            			英国文艺复兴时期散文家、哲学家
+            		</p>
+            	</div>
+            	<div class="AuthorDiv borderGrey_One">
+            		<img  src="img/AuthuorPG.png" width="100px" height="100px"/>
+            		<p>
+            			<strong>弗朗西斯·培根</strong>
+            		</p>
+            		<p>
+            			<a target="_blank" href="https://baike.baidu.com/item/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9/991349#2">《论说文集》</a>
+            		</p>
+            		<p class="Font-Black-Light-12">
+            			英国文艺复兴时期散文家、哲学家
+            		</p>
+            	</div>
+            </div>
+        </section>
+        <section class="Link_Othere_Site">
+        	<h6>友情链接</h6>
+			<ul>
+				<li>
+					<a href="http://www.zongheng.com/" target="_blank" >纵横中文网</a>
+				</li>
+				<li>
+					<a href="http://yunqi.qq.com/" target="_blank" >云起书院</a>
+				</li>
+				<li>
+					<a href="http://tieba.baidu.com/f?kw=%D6%D0%B9%FA%CA%AB%B4%CA%B4%F3%BB%E1&fr=ala0&tpl=5" target="_blank" >中华诗词大会</a>
+				</li>
+				<li>
+					<a href="http://www.zhsc.net/" target="_blank" >中华诗词网</a>
+				</li>
+				<li>
+					<a href="http://jingxinzhilv.net/ShowArticle.asp?ArticleID=5352&audience=164442">修禅院校</a>
+				</li>
+								<li>
+					<a href="http://www.zongheng.com/" target="_blank" >纵横中文网</a>
+				</li>
+				<li>
+					<a href="http://yunqi.qq.com/" target="_blank" >云起书院</a>
+				</li>
+				<li>
+					<a href="http://tieba.baidu.com/f?kw=%D6%D0%B9%FA%CA%AB%B4%CA%B4%F3%BB%E1&fr=ala0&tpl=5" target="_blank" >中华诗词大会</a>
+				</li>
+				<li>
+					<a href="http://www.zhsc.net/" target="_blank" >中华诗词网</a>
+				</li>
+				<li>
+					<a href="http://jingxinzhilv.net/ShowArticle.asp?ArticleID=5352&audience=164442">修禅院校</a>
+				</li>
+								<li>
+					<a href="http://www.zongheng.com/" target="_blank" >纵横中文网</a>
+				</li>
+				<li>
+					<a href="http://yunqi.qq.com/" target="_blank" >云起书院</a>
+				</li>
+				<li>
+					<a href="http://tieba.baidu.com/f?kw=%D6%D0%B9%FA%CA%AB%B4%CA%B4%F3%BB%E1&fr=ala0&tpl=5" target="_blank" >中华诗词大会</a>
+				</li>
+				<li>
+					<a href="http://www.zhsc.net/" target="_blank" >中华诗词网</a>
+				</li>
+				<li>
+					<a href="http://jingxinzhilv.net/ShowArticle.asp?ArticleID=5352&audience=164442">修禅院校</a>
+				</li>
+								<li>
+					<a href="http://www.zongheng.com/" target="_blank" >纵横中文网</a>
+				</li>
+				<li>
+					<a href="http://yunqi.qq.com/" target="_blank" >云起书院</a>
+				</li>
+				<li>
+					<a href="http://tieba.baidu.com/f?kw=%D6%D0%B9%FA%CA%AB%B4%CA%B4%F3%BB%E1&fr=ala0&tpl=5" target="_blank" >中华诗词大会</a>
+				</li>
+				<li>
+					<a href="http://www.zhsc.net/" target="_blank" >中华诗词网</a>
+				</li>
+				<li>
+					<a href="http://jingxinzhilv.net/ShowArticle.asp?ArticleID=5352&audience=164442">修禅院校</a>
+				</li>
+			</ul>
+        </section>
+        <footer>
+        	<br/>
+        	<p>
+        		Copyright © 2017-2017 www.tangyucheng.com All Rights Reserved版权所有 tangyucheng dashuaige
+        	</p>
+        	<p>
+        		请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！举报电话：010-59357051<br />
+				本站所收录的作品、社区话题、用户评论、用户上传内容或图片等均属用户个人行为。如前述内容侵害您的权益，欢迎举报投诉，一经核实，立即删除，本站不承担任何责任
+        	</p>
+        	<p>
+        		起点正积极配合国家最新发布的《关于办理侵犯知识产权刑事案件适用法律若干问题的意见》<br />
+				采用刑事手段进行严厉打击盗版，目前相关公安机关已经抓获犯罪嫌疑人15名！正告盗版网站立即停止侵权行为！
+        	</p>
+           <br/>
+        </footer>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+            var Alink =document.getElementById("BookSelf");
+            Alink.onmouseover=function(){
+            	Alink.setAttribute("color","white");
+            };
+            Alink.onmouseleave=function(){
+              	Alink.setAttribute("color","black");         	
+            }
+		});
+		$('.carousel').carousel();
+	</script>
+</html>

@@ -1,0 +1,81 @@
+		<style type="text/css">
+			*{padding: 0px;margin: 0px;}
+			.active{background-color: white;border-bottom: none;box-sizing: border-box;}
+			 header{height: 35px;width: 100%;background-color: RGB(247,247,247);}
+			.NavFirst{height: 35px;width: 80%;width: 1300px;margin: 0 auto;}
+			.NavFirst a{display: inline-block;line-height: 35px;padding:0 5px;width: 70px;text-align: center;}
+			.NavFirst a:hover{background-color: white;border: 1px solid gainsboro;border-bottom: none;}
+			.nav-right-links{float: right;border-right: 1px solid gainsboro;}
+			.nav-right-link{float: right;}
+			.Head-Title-Serach{height: 100px;width: 1300px;margin: 0 auto;padding: 10px;box-sizing: border-box; }
+			.icon-div{width: 200px;float: left;height: 85px;padding: 10px;}
+			.seracrh-div{width: 800px;height: 85px;position: relative;float: left;}
+			.MyBook-div{width: 200px;height: 85px;float: right;position: relative;}
+			.MyBook-div a{display: block;font-size: 14px; position: absolute; top: 0px;bottom: 0px; left: 0px;right: 0px;margin: auto;width: 100px;height: 35px;padding: 10px;line-height: 20px;} 
+			.MyBook-div a span{vertical-align: top;font-size: 12px;}
+			.navsecond-div{width: 100%;height: 40px;background-color: RGB(62,61,67);margin-bottom: 5px;}
+			.navsecond-div .TypeFirst{width: 200px;height: 44px;line-height: 40px;text-align: left;padding-left:20px;color: white;display: inline-block;background-color: #101010;}
+			.navsecond-div .TypeFirst:hover{background-color: #080808;}
+			.navSecond{width: 1300px;margin: 0px auto;}
+			.navSecond a{display: block;color: white;width: 100px;text-align: center;float: left;height: 40px;line-height: 40px;}
+			.navSecond a:hover{background-color: #222222;border-top: 2px solid #DC143C;box-sizing: border-box;}
+			.Head-Book-Type{width: 1300px; margin: auto;height:350px;background-color: white;}
+			.Head-Book-Type .BookType{width:200px;height: 350px;float: left;}
+			.Head-Book-Type .BookType ul{width: 180px;margin: 0 auto;list-style: none;}
+			.Head-Book-Type .BookType ul li{margin-left:-40px;transition: 2s;list-style: none;height: 32px;text-align: left;line-height: 32px;}
+			.Head-Book-Type .BookType ul li:nth-child(odd){background-color: RGB(247,246,242);}
+			.Head-Book-Type .BookType ul li:hover{text-decoration: none;text-indent:50px;background-color: #262626;color: white;}
+			.Head-Book-Type .LunboSlider{width: 800px;height: 350px;float: left;background-color: #000000;margin-left: 5px;}
+			/*.Head-Book-Type:after{content: ""; display: block; clear: both;} */
+			.Head-Book-Type .NewBook{margin-left: 15px;float: left;width: 280px;}
+			.Head-Book-Type .NewBook ul li{margin-left:-40px;width: 230px;list-style: none;text-indent: 20px;white-space: nowrap; overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;}
+			.Head-Book-Type .NewBook ul li:hover{color: red;text-decoration: underline;}
+			#Leaderboards{width: 1300px;height: 600px;margin: 0 auto;}
+			#Leaderboards .BorderOne{width: 200px;float: left;height: 600px;}
+			#Leaderboards .ShowBook{width: 800px;float: left;height: 600px;}
+			#Leaderboards .BorderThree{width: 280px;float: left;height: 600px;margin-left: 20px;}
+			#Leaderboards::after {content: ""; display: block; clear: both;} 
+			#Leaderboards .BorderOne h4:first-of-type{border-bottom: 1px solid black;padding-bottom: 5px;text-indent: 5px;}
+			#Leaderboards .BorderOne ul li{margin-left:-40px;text-indent: 5px;padding-bottom: 1px;border-bottom: 1px solid gainsboro; list-style: none;width: 100%;height: 32px; line-height: 32px;}
+		    #Leaderboards .BorderOne ul li:hover{color: red;font-size: 16px;}
+			#Leaderboards .ShowBook .BookPicture{width: 300px;height: 300px;float: left;margin-left: 5px;}
+			#Leaderboards .ShowBook .BookPicture img{margin: 25px 50px 25px 50px; }
+			#Leaderboards .ShowBook .BooKdetali{width: 480px;height: 300px;float: left;margin-left: 15px;padding: 15px;}
+			#Leaderboards .ShowBook::after{content: ""; display: block;clear: both; }
+			#Leaderboards .ShowBook .ShowBook_Up{width: 100%;height: 300px;}
+			.P_Introdution{word-wrap: break-word;text-overflow: ellipsis;overflow: hidden;-o-text-overflow: ellipsis;}
+			#Leaderboards .ShowBook .BookListIntrodution{width: 100%;padding: 10px;height: 300px;}
+			#Leaderboards .ShowBook .ShowBook_Dowm{width: 800px;margin-left: 5px;margin-top:15px;height: 285px;}
+			#Leaderboards .ShowBook .ShowBook_Dowm .List_Book{width: 235px;height: 110px;float: left;margin: 15px;padding: 5px;}
+			#Leaderboards .ShowBook .ShowBook_Dowm .List_Book p{margin-top: -8px;}
+			#Leaderboards .BorderThree h4:first-of-type{border-bottom: 1px solid black;padding-bottom: 5px;text-indent: 5px;}
+			#Leaderboards .BorderThree ul li{margin-left:-40px;text-indent: 5px;padding-bottom: 1px;border-bottom: 1px solid gainsboro; list-style: none;width: 100%;height: 32px; line-height: 32px;}
+		    #Leaderboards .BorderThree ul li:hover{color: red;font-size: 16px;}
+		    .Ad_Administot{width: 1300px;height: 100px;margin: 0 auto;}
+		    .NewBook_List_LeaderBorad{width: 1300px;height: 500px;margin: 0 auto;padding: 10px;}
+		    .NewBook_List_LeaderBorad h4:first-child{border-bottom: 1px solid black;padding-bottom: 5px;}
+		    .NewBook_List_LeaderBorad .NesBookList_Leader{width: 100%;height: 430px;}
+		    .NesBookList_Leader .BookPicture{width: 200px;float: left;}
+		    .NesBookList_Leader .BookPictureList{width: 800px;float: left;height: 430px;margin-left: 5px;}
+		    .NewBookSass{width: 350px;height: 130px;padding: 10px;float: left;margin-left: 33px;margin-top: 10px;}
+		    .NewBookSass img{float: left;}
+		    .NewBookSass p{text-indent: 10px;}
+		    .NewBookSass strong{padding-bottom: 5px;}
+		    .NesBookList_Leader .NewAuhtor{width: 260px;height: 430px;float: left;margin-left: 10px;}
+		    .NesBookList_Leader .NewAuhtor h4:first-of-type{border-bottom: 1px solid black;padding-bottom: 5px;text-indent: 5px;}
+			.NesBookList_Leader .NewAuhtor ul li{margin-left:-40px;text-indent: 5px;padding-bottom: 1px;border-bottom: 1px solid gainsboro; list-style: none;width: 100%;height: 32px; line-height: 32px;}
+		    .NesBookList_Leader .NewAuhtor ul li:hover{color: red;text-decoration: underline;}
+		    .BookShowGexin{height: 500px;width: 1300px;margin:0 auto;margin-top: 20px;padding: 10px;color:black}
+		    .BookShowGexin h4:first-child{border-bottom: 1px solid black;padding-bottom: 5px;}
+		    .BookShowGexin table{color: black;font-size: 12px;}
+		    .NewZhangeBook{width: 1000px;height: 480px;float: left;}
+		    .AuthorShow {width: 270px;float: right;height: 480px;padding: 5px;}
+		    .AuthorShow .AuthorDiv{width: 250px;height: 120px;padding: 5px;margin-top: 25px;margin-bottom: 25px;}
+		    .AuthorShow .AuthorDiv img{border-radius: 50%;float: left;}
+		    .Link_Othere_Site{height: 100px;width: 1300px;margin:0 auto;margin-top: 20px;padding: 10px;color:black;}
+		    .Link_Othere_Site ul li{display: inline-block;color: grey;}
+		    .Link_Othere_Site ul li a{color: grey;font-size: 12px;}
+		    .Link_Othere_Site ul li a:hover{color: red;}
+		    .Link_Othere_Site h6{text-align: center;}
+		    footer{text-align: center;color: grey;font-size: 12px;background-color: gainsboro;}    
+		</style>

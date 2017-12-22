@@ -1,0 +1,108 @@
+@import url("BasicFontStyle.css");
+
+/*你懂的：Border样式*/
+.borderGrey_1{
+	border: 1px solid gainsboro ;
+}
+.borderGrey_1:hover{border: 1px solid dodgerblue;box-shadow: 0px 0px 2px 2px dodgerblue;}
+
+.borderGrey_One{
+	border: 1px solid gainsboro ;
+}
+
+/*你懂的 2017/11/26 <a> 标签样式*/
+
+/*改变默认<a>标签样式*/
+a{text-decoration: none;}
+
+.Link-Nav-Qidian a{color: black;transition:color 2s; }
+.Link-Nav-Qidian a:hover{background-color: white;color: red;}
+
+.Link_Baidu{color: dodgerblue;text-decoration: none;}
+.Link_Baidu:hover{text-decoration: underline;}
+
+.Link_Show_Btn{padding: 5px;border: 1px solid gainsboro;background-color: RGB(242,242,242); }
+.Link_Show_Btn:hover{background-color: #DCDCDC;}
+
+.Link_Show_Corp_Btn{background-color: white; transition: 1s;}
+.Link_Show_Corp_Btn:hover{background-color: crimson;color: white;border:crimson ;}
+/*
+.table{
+	width: 45%;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: 200;
+	float: left;
+}
+.table tr td,th{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-left:solid 0px #333333;
+	border-bottom:solid 1px #333333;
+	border-right:solid 0px #333333;
+	border-top:solid 0px #333333;
+}
+.table th{
+    
+	padding: 5px;
+	text-align: center;
+	font-weight: 400;
+}
+.table tbody tr{
+	border-bottom: 1px solid black;
+
+} 
+
+.table .ItemCenter{
+	text-align: center;
+}
+
+.table1{
+	width: 50%;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: 200;
+	float: left;
+	margin-left: 20px;
+}
+.table1 tr td{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-left:solid 1px #333333;
+	border-bottom:solid 1px #333333;
+	border-right:solid 1px #333333;
+	border-top:solid 1px #333333;
+}
+
+.table1 th{
+	padding: 5px;
+	text-align: center;
+	font-weight: 400;
+}
+.table1 tbody tr{
+	border-bottom: 1px solid black;
+
+} 
+
+.table1 .ItemCenter{
+	text-align: center;
+}
+*/
+.input-Search{
+	width:400px;
+	height:37px;
+	position: absolute;
+	top: 22px;
+	left: 200px;
+}
+.input-Search-btn{
+	background-image: url(../SystemImg/Search.png);
+	width: 40px;
+	height: 38px;
+	border: RGB(191,44,36);
+	position: absolute;
+	top: 22px;
+	left: 600px;
+}
